@@ -1,0 +1,407 @@
+
+@media (max-width: 1199px) {
+    body {
+        font-size: 1rem;
+    }
+
+
+    .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+        width:100%;
+    }
+
+    .about .single_about .single_ab_text {
+        position: relative;
+        left: 50px;
+    }
+    .service .nav-tabs>li>a {
+        text-align: center;
+        color: #444444;
+        width: 100%;
+        height: 180px;
+        margin-left: 2px;
+        background: url(../images/stabmenubg.png) no-repeat bottom center;
+        border: 0px;
+        transition: all 0.6s;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .team .single_team_content .single_team_text_overlay .team_overlay_socail a i { 
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+    }
+    .btn-md {
+        padding: 10px 20px 10px 0px;
+    }
+    .about_skill_area .about_tabe .about_tabe_menu li a {
+        width: 140px;
+        line-height: 50px;
+    }
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+
+    h3 {
+        font-size: 1.575rem;
+        line-height: 2rem;
+        margin-bottom: 15px;
+    }
+    h5 {
+        font-size: 1.1rem;
+        margin-bottom: .5rem;
+        color: #696f7c;
+        line-height: 1.475rem;
+    }
+    .single_othersservice_icon h4 {
+        font-size: .675rem;
+        line-height: 2rem;
+    }
+    .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+        background: url(../images/stabmenubghv.png) no-repeat bottom center;
+        /* width: 100%; */
+        /* height: 140px; */
+        color: #fff;
+    }
+
+
+    .service .nav-tabs>li>a {
+        text-align: center;
+        color: #444444;
+        /* width: 100%; */
+        /* height: 140px; */
+        margin-left: 2px;
+        background: url(../images/stabmenubg.png) no-repeat bottom center;
+        border: 0px;
+        transition: all 0.6s;
+        padding: 0;
+    }
+
+    .about_skill_area .about_tabe .about_tabe_menu li a {
+        width: 95px;
+        line-height: 60px;
+        font-size: 0.775rem;
+    }
+    .single_team_text_overlay h4{
+        font-size:0.675rem;
+    }
+    .single_team_text_overlay p{
+        font-size:0.675rem;
+    }
+    .team .single_team_content .single_team_text_overlay .team_overlay_socail a i {
+        width: 14px;
+        height: 14px;
+        line-height: 14px;
+        font-size: .675rem;
+    }
+    .team .single_team_content .single_team_text_overlay{
+        top:25%;
+    }
+    .choose .main_choose .single_choose{
+        margin-top:80px;
+    }
+    .btn-md {
+        padding: 10px 5px 10px 0px;
+    }
+    button.btn-md{
+        font-size:0.675rem;
+    }
+
+
+}
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+        background-color: rgba(1, 5, 10, 0.51);
+            text-align: center;
+        }
+        .main_menu_bg .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+            border-bottom: 0px solid;
+        }
+
+        .tabs>li.active>a:focus {
+            background: url(../images/stabmenubghv.png) no-repeat bottom center;
+            width: 100%;
+            height: 140px;
+            color: #fff;
+            padding: 0;
+        }
+
+        .service .nav-tabs>li>a{
+            margin-bottom:10px;
+        }
+
+        .single_counter {
+            text-align: center;
+            padding-bottom: 30px;
+            overflow: hidden;
+            position: relative;
+            left: 20em;
+        }
+
+
+
+        .single_features_text{
+            margin-top:30px;
+        }
+        .about_tabe{
+            padding: 0px 10px;
+        }
+        .about_skill_area .about_tabe .about_tabe_menu{
+            margin-left:0;
+        }
+        .about_skill_area .about_tabe .about_tabe_menu li a {
+            width: 100px;
+            line-height: 50px;
+            position: relative;
+            left: 15em;
+            margin-bottom: 0;
+        }
+
+        .about_skill {
+            margin-top: 30px;
+            padding: 0px 10px;
+        }
+        .single_othersservice_icon h4 {
+            font-size: .875rem;
+            line-height: 2rem;
+        }
+        .main_clinetslogo{
+            margin-top:30px;
+        } 
+        .single_counter{
+            text-align: center;
+            padding-bottom:30px;
+            overflow: hidden;
+        }
+    /*    .grid-item {
+            width: 49.93%;
+        }
+        .portfolio .grid_item_overlay {
+            padding-top: 37%;
+            }*/
+            .team .single_team_content .single_team_text_overlay .team_overlay_socail a i {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                font-size:0.875rem;
+            }
+            .team .single_team_content .single_team_text_overlay h4{
+                font-size:0.875rem;
+            }
+            .team .single_team_content .single_team_text_overlay p{
+                font-size:0.875rem;
+            }
+            .portfolio .head_title{
+                text-align: center;
+            }
+            .portfolio .separator{
+                margin:20px auto;
+            }
+            .btn-md {
+                padding: 10px 20px 10px 0px;
+            }
+            button.btn-md{
+                font-size:0.875rem;
+            }
+            .toolbar{
+                text-align: center;
+            }
+
+
+            .copyright_text{
+                text-align: center;
+            }
+            .footer_socail{ 
+                text-align: center;
+            }
+            .footer_subcribs_area .navbar-form {
+                padding: 10px;
+            }
+
+            .single_widget ul li a i{
+                width:3%;
+                margin-right:2%;
+            }
+            .contact .single_info_icon {
+                width:15%;
+                float: left;
+                margin-right: 10%;
+            }
+            .contact .single_info_text {
+                float:left;
+                width:75%;
+            }
+            .navbar-form {
+                border-top: 0px solid transparent;
+                border-bottom: 0px solid transparent;
+                -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.1),0 0px 0 rgba(255,255,255,.1);
+                box-shadow: inset 0 0px 0 rgba(255,255,255,.1),0 0px 0 rgba(255,255,255,.1);
+            }
+
+
+            .footer .flowus{
+                text-align: center;
+            }
+            .copyright_text{
+                text-align: center;
+            }
+
+            .team .single_team_content .single_team_text_overlay {
+                position: absolute;
+                left: 15%;
+                background: rgba(255, 114, 0, 0.75);
+                padding: 10em 10em;
+                width: 70%;
+                opacity: 0;
+                transition: all 0.6s;
+                bottom: 5%;
+                top: 10%;
+            }
+
+            .main_maps .map_canvas_icon {
+                position: absolute;
+                left: 25%;
+                top: 25%;
+                cursor: pointer;
+            }
+            .video .main_video{
+                padding: 0;
+                overflow: hidden;
+            }
+
+            .video .icon {
+                padding-top: 2em;
+                padding-bottom: 2em;
+
+
+            }
+            .overlay {
+                background-color: rgba(41, 39, 34, 0.75);
+                    width: 100%;
+                    height: 450px;
+                }
+                .home .main_home {
+                    padding-top: 6em;
+                }
+            }
+
+
+
+            /* Landscape phones and smaller */
+            @media (max-width: 479px) {
+                html {
+                    font-size: 65%;
+                }
+
+                .owl-dots {
+                    position: absolute;
+                    bottom: 0;
+                    right: 40%;
+                }
+                .btn-md {
+                    padding: 10px 10px 10px 0px;
+                }
+                .about_skill_area .about_tabe .about_tabe_menu li a {
+                    width: 30%;
+                    margin-bottom: 0;
+                    position: relative;
+                    left: 5px;
+
+                }
+                .counter .main_counter_area .single_counter {
+                    position: relative;
+                    left: 12em;
+                }
+
+
+                .team .single_team_content .single_team_text_overlay {
+                    position: absolute;
+                    left: 15%;
+                    background: rgba(255, 114, 0, 0.75);
+                    padding: 10em 5em;
+                    width: 70%;
+                    opacity: 0;
+                    transition: all 0.6s;
+                    bottom: 5%;
+                    top: 10%;
+                }
+                .main_maps .map_canvas_icon {
+                    position: absolute;
+                    left: 12%;
+                    top: 30%;
+                    cursor: pointer;
+                }
+
+                .service .nav-tabs>li>a {
+                    text-align: center;
+                    color: #444444;
+                    width: 100%;
+                    height: 140px;
+                    margin-left: 2px;
+                    background: url(../images/stabmenubg.png) no-repeat bottom center;
+                    border: 0px;
+                    transition: all 0.6s;
+                    padding: 0;
+                }
+
+                .service_tabe_menu.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+                    background: url(../images/stabmenubghv.png) no-repeat bottom center;
+                    width: 100%;
+                    height: 140px;
+                    color: #fff;
+                }
+                .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+                    border-color: transparent;
+                    background-color: rgba(1, 5, 10, 0.51);
+                        text-align: center;
+                    }
+
+                    .single_widget {
+                        margin-bottom: 30px;
+                        width: 100%;
+                        height: 200px;
+                    }
+                    .separator {
+                        height: 1px;
+                        width: 150px;
+                        margin: 20px 0px;
+                        background: #eeeeee;
+                        position: relative;
+                    }
+                }
+
+
+
+
+
+                @media (max-width: 320px) {
+
+
+                    html {
+                        font-size: 60.5%;
+                    }
+                    .about_skill_area .about_tabe .about_tabe_menu li a {
+                        width: 60px;
+                    }
+
+
+
+
+
+
+
+
+
+
+                }
+
